@@ -2,4 +2,8 @@
 
 bubbleSort - сортировка пузырьком.
 
-quickSort - быстрая сортировка
+quickSort - быстрая сортировка.
+
+binarySearch - бинарный поиск.
+
+fibonachi - поиск числа Фибоначчи.

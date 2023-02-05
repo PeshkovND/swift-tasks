@@ -14,5 +14,5 @@ func binarySearch(_ arr: [Int], _ taskItem: Int) -> Int? {
 }
 
 var data = Array (1...11)
-if let searchIndex = binarySearch(data, 11) { print(searchIndex) }
-else {print("Element not found")}
+if let answer = binarySearch(data, 11) { print(answer) }
+else { print("Element not found") }
