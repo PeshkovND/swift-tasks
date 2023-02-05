@@ -2,7 +2,7 @@ func bubbleSort<T:Comparable> (_ arr: inout [T]){
     for i in 0..<arr.count{
         for j in 0..<arr.count-i-1{
             if arr[j] > arr[j + 1]{
-                var buf = arr[j]
+                let buf = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = buf
             }

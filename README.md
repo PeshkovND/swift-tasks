@@ -1,3 +1,5 @@
 # swift-tasks
 
-bubbleSort.swift - сортировка пузырьком
+bubbleSort - сортировка пузырьком.
+
+quickSort - быстрая сортировка
