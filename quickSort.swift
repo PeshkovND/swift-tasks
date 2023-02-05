@@ -7,7 +7,7 @@ func quickSort<T:Comparable> (_ arr: [T])->[T]{
     for elem in arr {
         if elem < Q { lessQ.append(elem) }
         else if elem > Q { moreQ.append(elem) }
-        else { equalsQ.append(elem)} 
+        else { equalsQ.append(elem) } 
     }
     return quickSort(lessQ) + equalsQ + quickSort(moreQ)
 }
